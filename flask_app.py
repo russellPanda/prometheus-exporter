@@ -35,4 +35,4 @@ def docker():
 
 if __name__ == '__main__':
     # REGISTRY.register(HostCollector())
-    app.run(host='0.0.0.0', port=8082, debug=True)
+    app.run(host='0.0.0.0', port=9100, debug=True)
